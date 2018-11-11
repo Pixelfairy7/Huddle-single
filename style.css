@@ -3,3 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+    font-size: 2.3em;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    max-width: 1440px;
+}
+
+
+
+/* header */
+
+.logo{
+    padding: 50px;
+    margin-bottom: 60px;
+}
+
+/* main body  */
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.intro {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.intro p {
+    width: 60%;
+    font-size: 1.4em;
+    font-weight: 400;
+    margin: 0 auto;
+    color: #7f8d98;
+}
+
+/* Mockups */
+
+.mockups{
+    margin-top: 60px;
+}
+
+.mockups img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+}
+
+/*Call to action */
+.cta {
+    text-align: center;
+    margin-top: 10%;
+}
+form{ 
+    margin-top: 3%;
+   }
+
+input {
+    width: 25%;
+    height: 30px;
+}
+
+button{ 
+    width: 175px;
+    height: 30px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 7%;
+}
+
